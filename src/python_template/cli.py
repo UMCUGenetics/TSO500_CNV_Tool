@@ -1,9 +1,10 @@
+"""CLI helpers."""
+
 import typer
 
 
 def get_hello_msg(name: str = "World"):
-    """
-    Returns a greeting message.
+    """Returns a greeting message.
 
     Args:
         name (str): The name to greet. Defaults to "World".
